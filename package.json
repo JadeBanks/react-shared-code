@@ -1,0 +1,21 @@
+{
+  "name": "react-shared-code",
+  "version": "1.0.0",
+  "repository": "https://github.com/JadeBanks/react-shared-code.git",
+  "author": "Jade Banks",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": ["packages/*"],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**",
+      "**/shared",
+      "app/react-native-*",
+      "app/react-native-*/**",
+      "web/react-scripts",
+      "**/jest",
+      "**/jest/**"
+    ]
+  }
+}
