@@ -6,7 +6,11 @@
   "license": "MIT",
   "private": true,
   "workspaces": {
-    "packages": ["packages/*"],
+    "packages": [
+      "web",
+      "app",
+      "shared"
+    ],
     "nohoist": [
       "**/react-native",
       "**/react-native/**",
