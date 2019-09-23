@@ -15,6 +15,7 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import PortableLabel from 'shared/components/PortableLabel';
 
 const App = () => {
   return (
@@ -31,7 +32,7 @@ const App = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Hello</Text>
+              <PortableLabel text="A Label" />
             </View>
           </View>
         </ScrollView>
