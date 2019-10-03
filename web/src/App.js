@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import PortableLabel from 'shared/components/PortableLabel';
+import Component1 from 'shared/components/Component1';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <PortableLabel text="A Label" />
+        <Component1 />
       </header>
     </div>
   );
